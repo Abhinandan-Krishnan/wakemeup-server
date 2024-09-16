@@ -1,0 +1,59 @@
+{
+    "MatchInfo": {
+        "Teams": [
+            "ABF",
+            "TKR"
+        ],
+        "Toss": [
+            "Trinbago Knight Riders",
+            "bowl"
+        ],
+        "Players": {
+            "ABF": [
+                "Fakhar Zaman",
+                "Justin Greaves",
+                "Roshon Primus",
+                "Kofi James",
+                "Jewel Andrew",
+                "Sam Billings (wk)",
+                "Imad Wasim",
+                "Chris Green (c)",
+                "Fabian Allen",
+                "Shamar Springer",
+                "Mohammad Amir"
+            ],
+            "TKR": [
+                "Sunil Narine",
+                "Andries Gous",
+                "Nicholas Pooran (wk)",
+                "Shaqkere Parris",
+                "Keacy Carty",
+                "Kieron Pollard (c)",
+                "Andre Russell",
+                "Akeal Hosein",
+                "Joshua Little",
+                "Terrance Hinds",
+                "Waqar Salamkheil"
+            ]
+        },
+        "Format": "Test"
+    },
+    "MatchStatus": {
+        "Status": "inprogress",
+        "Description": "Trinbago Knight Riders need 104 runs in 60 balls"
+    },
+    "CurrentBatsmanScore": {
+        "Keacy Carty": {
+            "Runs": "1",
+            "Balls": "1",
+            "4s": "0",
+            "6s": "0"
+        },
+        "Andries Gous": {
+            "Runs": "36",
+            "Balls": "26",
+            "4s": "4",
+            "6s": "2"
+        }
+    }
+}

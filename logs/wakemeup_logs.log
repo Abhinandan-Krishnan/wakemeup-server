@@ -1,0 +1,58 @@
+2024-09-16 05:31:39,765 - INFO - utils - Fetched matches from Firebase
+2024-09-16 05:31:40,183 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-16 05:31:40,184 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-16 05:31:40,861 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-16 05:31:40,870 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 1: Stumps'}
+2024-09-16 05:31:40,871 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Neil Brand': {'Runs': '122', 'Balls': '243', '4s': '11', '6s': '1'}, 'Migael Pretorius': {'Runs': '9', 'Balls': '21', '4s': '1', '6s': '0'}})
+2024-09-16 05:31:40,871 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-16 05:31:40,967 - INFO - utils - Updated Current Batsman score for: South Africa A vs Sri Lanka A
+2024-09-16 05:31:41,066 - INFO - utils - Updated Match status for: South Africa A vs Sri Lanka A
+2024-09-16 05:31:41,066 - INFO - utils - Deleting alerts for completed matches
+2024-09-16 05:32:38,191 - INFO - utils - Fetched matches from Firebase
+2024-09-16 05:32:38,542 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-16 05:32:38,542 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-16 05:32:39,245 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-16 05:32:39,253 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 1: Stumps'}
+2024-09-16 05:32:39,255 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Neil Brand': {'Runs': '122', 'Balls': '243', '4s': '11', '6s': '1'}, 'Migael Pretorius': {'Runs': '9', 'Balls': '21', '4s': '1', '6s': '0'}})
+2024-09-16 05:32:39,255 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-16 05:32:39,354 - INFO - utils - Updated Current Batsman score for: South Africa A vs Sri Lanka A
+2024-09-16 05:32:39,448 - INFO - utils - Updated Match status for: South Africa A vs Sri Lanka A
+2024-09-16 05:32:39,448 - INFO - utils - Deleting alerts for completed matches
+2024-09-16 05:32:39,494 - INFO - utils - Found 0 alerts from previous matches and deleted.
+2024-09-16 05:32:39,588 - INFO - alert_service - No alerts or matches to process
+2024-09-16 05:33:47,170 - INFO - utils - Fetched matches from Firebase
+2024-09-16 05:33:47,517 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-16 05:33:47,517 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-16 05:33:48,230 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-16 05:33:48,238 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 1: Stumps'}
+2024-09-16 05:33:48,240 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Neil Brand': {'Runs': '122', 'Balls': '243', '4s': '11', '6s': '1'}, 'Migael Pretorius': {'Runs': '9', 'Balls': '21', '4s': '1', '6s': '0'}})
+2024-09-16 05:33:48,240 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-16 05:33:48,362 - INFO - utils - Updated Current Batsman score for: South Africa A vs Sri Lanka A
+2024-09-16 05:33:48,457 - INFO - utils - Updated Match status for: South Africa A vs Sri Lanka A
+2024-09-16 05:33:48,457 - INFO - utils - Deleting alerts for completed matches
+2024-09-16 05:33:48,516 - INFO - utils - Found 0 alerts from previous matches and deleted.
+2024-09-16 05:33:48,610 - INFO - alert_service - No alerts or matches to process
+2024-09-16 05:34:04,058 - INFO - utils - Fetched matches from Firebase
+2024-09-16 05:34:04,432 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-16 05:34:04,433 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-16 05:34:05,283 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-16 05:34:05,291 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 1: Stumps'}
+2024-09-16 05:34:05,293 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Neil Brand': {'Runs': '122', 'Balls': '243', '4s': '11', '6s': '1'}, 'Migael Pretorius': {'Runs': '9', 'Balls': '21', '4s': '1', '6s': '0'}})
+2024-09-16 05:34:05,293 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-16 05:34:05,383 - INFO - utils - Updated Current Batsman score for: South Africa A vs Sri Lanka A
+2024-09-16 05:34:05,484 - INFO - utils - Updated Match status for: South Africa A vs Sri Lanka A
+2024-09-16 05:34:05,484 - INFO - utils - Deleting alerts for completed matches
+2024-09-16 05:34:05,525 - INFO - utils - Found 0 alerts from previous matches and deleted.
+2024-09-16 05:34:05,621 - INFO - alert_service - No alerts or matches to process
+2024-09-16 05:34:21,103 - INFO - utils - Fetched matches from Firebase
+2024-09-16 05:34:21,435 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-16 05:34:21,435 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-16 05:34:22,170 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-16 05:34:22,178 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 1: Stumps'}
+2024-09-16 05:34:22,180 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Neil Brand': {'Runs': '122', 'Balls': '243', '4s': '11', '6s': '1'}, 'Migael Pretorius': {'Runs': '9', 'Balls': '21', '4s': '1', '6s': '0'}})
+2024-09-16 05:34:22,180 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-16 05:34:22,392 - INFO - utils - Updated Current Batsman score for: South Africa A vs Sri Lanka A
+2024-09-16 05:34:22,490 - INFO - utils - Updated Match status for: South Africa A vs Sri Lanka A
+2024-09-16 05:34:22,491 - INFO - utils - Deleting alerts for completed matches
+2024-09-16 05:34:22,541 - INFO - utils - Found 0 alerts from previous matches and deleted.
+2024-09-16 05:34:22,643 - INFO - alert_service - No alerts or matches to process
