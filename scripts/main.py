@@ -50,8 +50,6 @@ if __name__ == "__main__":
             logger.info(f"Uploading new match {match} to Firebase")
             upload_to_firebase(ongoing_matches[match], match)
 
-    delete_alerts_from_firebase("India vs Pak")
-
     if existing_matches:
         logger.info(f"Removing old entries from Firebase: {existing_matches}")
         for match in existing_matches:

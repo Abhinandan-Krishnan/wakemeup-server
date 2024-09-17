@@ -56,3 +56,261 @@
 2024-09-16 05:34:22,491 - INFO - utils - Deleting alerts for completed matches
 2024-09-16 05:34:22,541 - INFO - utils - Found 0 alerts from previous matches and deleted.
 2024-09-16 05:34:22,643 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:18:00,246 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:18:00,545 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:18:00,545 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:18:01,460 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:18:01,473 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:18:01,475 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:18:01,475 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:18:01,586 - INFO - utils - Updated Current Batsman score for: South Africa A vs Sri Lanka A
+2024-09-17 04:18:01,695 - INFO - utils - Updated Match status for: South Africa A vs Sri Lanka A
+2024-09-17 04:18:01,804 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:25:02,173 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:25:02,953 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:25:02,953 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:25:03,948 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:25:03,961 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:25:03,964 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:25:03,964 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:25:04,067 - INFO - utils - Updated Current Batsman score for: South Africa A vs Sri Lanka A
+2024-09-17 04:25:04,124 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:25:04,224 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:27:13,587 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:27:13,935 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:27:13,936 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:27:15,185 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:27:15,198 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:27:15,200 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:27:15,200 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:27:15,321 - INFO - utils - Updated Current Batsman score for: South Africa A vs Sri Lanka A
+2024-09-17 04:30:24,816 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:30:25,585 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:30:25,585 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:30:26,805 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:30:26,818 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:30:26,820 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:30:26,820 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:30:26,926 - INFO - utils - Updated Current Batsman score for: South Africa A vs Sri Lanka A
+2024-09-17 04:30:26,972 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:30:26,972 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:30:27,068 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:31:27,482 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:31:27,809 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:31:27,809 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:31:28,770 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:31:28,782 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:31:28,785 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:31:28,785 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:31:28,903 - INFO - utils - Updated Current Batsman score for: South Africa A vs Sri Lanka A
+2024-09-17 04:31:28,956 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:31:28,956 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:31:29,057 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:37:47,667 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:37:48,125 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:37:48,126 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:37:49,003 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:37:49,016 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:37:49,018 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:37:49,019 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:37:49,072 - INFO - utils - No changes in score for: Lahiru Udara, skipping update.
+2024-09-17 04:37:49,072 - INFO - utils - No changes in score for: Pasindu Sooriyabandara, skipping update.
+2024-09-17 04:37:49,123 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:37:49,123 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:37:49,225 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:38:03,768 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:38:04,093 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:38:04,093 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:38:05,294 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:38:05,307 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:38:05,309 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:38:05,309 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:38:05,359 - INFO - utils - No changes in score for: Lahiru Udara, skipping update.
+2024-09-17 04:38:05,359 - INFO - utils - No changes in score for: Pasindu Sooriyabandara, skipping update.
+2024-09-17 04:38:05,409 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:38:05,409 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:38:05,519 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:38:42,383 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:38:42,773 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:38:42,773 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:38:43,930 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:38:43,943 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:38:43,945 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:38:43,945 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:38:44,061 - INFO - utils - Updated score for: Lahiru Udara
+2024-09-17 04:38:44,061 - INFO - utils - No changes in score for: Pasindu Sooriyabandara, skipping update.
+2024-09-17 04:38:44,109 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:38:44,109 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:38:44,203 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:38:55,884 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:38:56,066 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:38:56,066 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:38:56,288 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:38:56,301 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:38:56,303 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:38:56,303 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:38:56,404 - INFO - utils - Updated score for: 4s
+2024-09-17 04:38:56,453 - INFO - utils - Updated score for: 6s
+2024-09-17 04:38:56,504 - INFO - utils - Updated score for: Balls
+2024-09-17 04:38:56,553 - INFO - utils - Updated score for: Runs
+2024-09-17 04:38:56,601 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:38:56,602 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:38:56,690 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:39:33,908 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:39:34,275 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:39:34,275 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:39:35,194 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:39:35,207 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:39:35,209 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:39:35,209 - INFO - main - Uploading new match South Africa A vs Sri Lanka A to Firebase
+2024-09-17 04:39:35,317 - INFO - utils - Uploaded match data for: South Africa A vs Sri Lanka A
+2024-09-17 04:39:35,420 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:39:49,541 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:39:49,847 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:39:49,848 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:39:50,601 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:39:50,614 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:39:50,617 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:39:50,617 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:39:50,725 - INFO - utils - Updated score for: Lahiru Udara
+2024-09-17 04:39:50,725 - INFO - utils - No changes in score for: Pasindu Sooriyabandara, skipping update.
+2024-09-17 04:39:50,774 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:39:50,774 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:39:50,878 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:40:00,618 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:40:00,723 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:40:00,724 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:40:01,553 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:40:01,566 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:40:01,568 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:40:01,568 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:40:01,677 - INFO - utils - Updated score for: 4s
+2024-09-17 04:40:01,732 - INFO - utils - Updated score for: 6s
+2024-09-17 04:40:01,783 - INFO - utils - Updated score for: Balls
+2024-09-17 04:40:01,833 - INFO - utils - Updated score for: Runs
+2024-09-17 04:40:01,878 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:40:01,878 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:40:01,978 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:40:32,974 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:40:33,410 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:40:33,411 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:40:34,461 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:40:34,475 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:40:34,477 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:40:34,477 - INFO - main - Uploading new match South Africa A vs Sri Lanka A to Firebase
+2024-09-17 04:40:34,583 - INFO - utils - Uploaded match data for: South Africa A vs Sri Lanka A
+2024-09-17 04:40:34,681 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:45:26,510 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:45:26,911 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:45:26,911 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:45:27,651 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:45:27,664 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:45:27,666 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:45:27,666 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:45:27,768 - INFO - utils - Updated score for: Lahiru Udara
+2024-09-17 04:45:27,769 - INFO - utils - No changes in score for: Pasindu Sooriyabandara, skipping update.
+2024-09-17 04:45:27,819 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:45:27,819 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:45:27,918 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:46:15,185 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:46:15,522 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:46:15,522 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:46:16,247 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:46:16,259 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:46:16,261 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:46:16,261 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:46:23,839 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:46:23,917 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:46:23,917 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:46:24,431 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:46:24,443 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:46:24,445 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:46:24,446 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:46:42,269 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:46:42,534 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:46:42,534 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:46:43,286 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:46:43,299 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:46:43,301 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:46:43,301 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:46:56,131 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:46:56,413 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:46:56,413 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:46:56,622 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:46:56,635 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:46:56,638 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:46:56,638 - INFO - main - Uploading new match South Africa A vs Sri Lanka A to Firebase
+2024-09-17 04:46:56,736 - INFO - utils - Uploaded match data for: South Africa A vs Sri Lanka A
+2024-09-17 04:46:56,826 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:47:05,657 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:47:05,940 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:47:05,940 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:47:06,184 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:47:06,196 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:47:06,199 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:47:06,199 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:47:06,242 - INFO - utils - No changes in score for: Lahiru Udara, skipping update.
+2024-09-17 04:47:06,243 - INFO - utils - No changes in score for: Pasindu Sooriyabandara, skipping update.
+2024-09-17 04:47:06,293 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:47:06,293 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:47:06,396 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:47:36,307 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:47:36,713 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:47:36,714 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:47:37,478 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:47:37,491 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:47:37,493 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:47:37,493 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:47:37,553 - INFO - utils - No changes in score for: Lahiru Udara, skipping update.
+2024-09-17 04:47:37,553 - INFO - utils - No changes in score for: Pasindu Sooriyabandara, skipping update.
+2024-09-17 04:47:37,599 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:47:37,599 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:47:37,756 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:48:41,567 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:48:42,016 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:48:42,016 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:48:42,651 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:48:42,664 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:48:42,666 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:48:42,666 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:48:42,761 - INFO - utils - Updated score for: Lahiru Udara
+2024-09-17 04:48:42,810 - INFO - utils - Updated score for: Pasindu Sooriyabandara
+2024-09-17 04:48:42,854 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:48:42,854 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:48:42,949 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:49:00,064 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:49:00,400 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:49:00,400 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:49:01,073 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:49:01,086 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:49:01,088 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:49:01,088 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:49:01,183 - INFO - utils - Updated score for: Lahiru Udara
+2024-09-17 04:49:01,184 - INFO - utils - No changes in score for: Pasindu Sooriyabandara, skipping update.
+2024-09-17 04:49:01,228 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:49:01,228 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:49:01,321 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:49:16,925 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:49:17,216 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:49:17,216 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:49:17,978 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:49:17,991 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:49:17,994 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:49:17,994 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:49:18,047 - INFO - utils - No changes in score for: Lahiru Udara, skipping update.
+2024-09-17 04:49:18,047 - INFO - utils - No changes in score for: Pasindu Sooriyabandara, skipping update.
+2024-09-17 04:49:18,089 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:49:18,089 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:49:18,181 - INFO - alert_service - No alerts or matches to process
+2024-09-17 04:50:08,492 - INFO - utils - Fetched matches from Firebase
+2024-09-17 04:50:08,822 - INFO - main - Current matches fetched: ['South Africa A vs Sri Lanka A']
+2024-09-17 04:50:08,823 - INFO - main - Extracting info for: South Africa A vs Sri Lanka A
+2024-09-17 04:50:09,569 - INFO - wakemeup - Match info extracted: {'Teams': ['RSAA', 'SLA'], 'Toss': ['Sri Lanka A', 'bowl'], 'Players': {'RSAA': ['Neil Brand (c)', 'Tshepang Dithole', 'Jean du Plessis', 'Marques Ackerman', 'Dewald Brevis', 'Mihlali Mpongwana', 'Rivaldo Moonsamy (wk)', 'Beyers Swanepoel', 'Migael Pretorius', 'Prenelan Subrayen', 'Lutho Sipamla'], 'SLA': ['Pasindu Sooriyabandara (c)', 'Lahiru Udara', 'Nuwanidu Fernando', 'Pawan Rathnayake', 'Janith Liyanage', 'Sonal Dinusha', 'Vishad Randika (wk)', 'Wanuja Sahan', 'Mohamed Shiraz', 'Isitha Wijesundera', 'Eshan Malinga']}, 'Format': 'Test'}
+2024-09-17 04:50:09,582 - INFO - wakemeup - Current match status: {'Status': 'stumps', 'Description': 'Day 2: Stumps - Sri Lanka A trail by 200 runs'}
+2024-09-17 04:50:09,585 - INFO - wakemeup - Current batsmen scores: defaultdict(<class 'dict'>, {'Lahiru Udara': {'Runs': '61', 'Balls': '110', '4s': '10', '6s': '0'}, 'Pasindu Sooriyabandara': {'Runs': '43', 'Balls': '73', '4s': '6', '6s': '0'}})
+2024-09-17 04:50:09,585 - INFO - main - Updating existing match South Africa A vs Sri Lanka A in Firebase
+2024-09-17 04:50:09,636 - INFO - utils - No changes in score for: Lahiru Udara, skipping update.
+2024-09-17 04:50:09,636 - INFO - utils - No changes in score for: Pasindu Sooriyabandara, skipping update.
+2024-09-17 04:50:09,686 - INFO - utils - No changes in match status for: South Africa A vs Sri Lanka A, skipping update.
+2024-09-17 04:50:09,734 - INFO - utils - Updated match status for: Status
+2024-09-17 04:50:09,840 - INFO - alert_service - No alerts or matches to process

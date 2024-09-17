@@ -29,21 +29,32 @@ def upload_current_batsman_score_to_firebase(match, data):
     # Initialize Firebase
     ref = db.reference(f'OngoingMatchesList/{match}/MatchData/CurrentBatsmanScore')
 
-    # Clear existing matches (optional)
-    ref.set({})
+    # Retrieve current match status from Firebase
+    current_data = ref.get()
 
-    ref.set(data)
-    logger.info(f"Updated Current Batsman score for: {match}")  
+    for key,curr_data in current_data.items():
+        if curr_data != data[key]:
+            curr_ref=db.reference(f'OngoingMatchesList/{match}/MatchData/CurrentBatsmanScore/{key}')
+            curr_ref.set(data[key])
+            logger.info(f"Updated score for: {key}")
+        else:
+            logger.info(f"No changes in score for: {key}, skipping update.")
 
 def upload_match_status_to_firebase(match, data):
-    # Initialize Firebase
+    # Initialize Firebase reference
     ref = db.reference(f'OngoingMatchesList/{match}/MatchData/MatchStatus')
 
-    # Clear existing matches (optional)
-    ref.set({})
+    # Retrieve current match status from Firebase
+    current_data = ref.get()
 
-    ref.set(data)
-    logger.info(f"Updated Match status for: {match}")  
+    for key,curr_data in current_data.items():
+        if curr_data != data[key]:
+            curr_ref=db.reference(f'OngoingMatchesList/{match}/MatchData/MatchStatus/{key}')
+            curr_ref.set(data[key])
+            logger.info(f"Updated match status for: {key}")
+        else:
+            logger.info(f"No changes in match status for: {match}, skipping update.")
+
 
 def fetch_from_firebase():
     # Initialize Firebase if not already initialized
